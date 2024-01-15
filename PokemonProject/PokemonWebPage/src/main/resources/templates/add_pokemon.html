@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}" />
+</head>
+<body>
+<div class="container">
+  <h1>TRAIN YOUR POKEMON:</h1>
+  <div class="row mt-5">
+    <div class="col-2">
+      <p><a class="btn btn-outline-success" href="/myPokemons/bestiary">
+        <i class="bi bi-arrow-left-square-fill"></i> Back</a>
+      </p>
+    </div>
+    <div class="col-6">
+      <h2>Pokemon Base Info</h2>
+      <form action="#" th:action="@{/myPokemons/trainPokemon}" th:object="${pokemon}" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input class="form-control" type="text" th:field="*{name}" id="name" placeholder="Name" required
+          >
+          <label for="baseExperience">BaseExperience</label>
+          <input class="form-control" type="text" th:field="*{baseExperience}" id="baseExperience" placeholder="baseExperience"
+          >
+          <label for="height">Height</label>
+          <input class="form-control" type="text" th:field="*{height}" id="height" placeholder="Height" min="1"
+          >
+          <label for="isDefault">IsDefault</label>
+          <input class="form-control" type="text" th:field="*{isDefault}" id="isDefault" placeholder="isDefault"
+          >
+          <label for="order">Order</label>
+          <input class="form-control" type="text" th:field="*{order}" id="order" placeholder="order"
+          >
+          <label for="weight">Weight</label>
+          <input class="form-control" type="text" th:field="*{weight}" id="weight" placeholder="weight"
+          >
+        </div>
+          <div class="container mt-5">
+            <h2>Pokemon Abilities</h2>
+            <div class="card" style="width: 30rem;">
+              <div class="card-body">
+                <label for="nameAbility">Name:</label>
+                <input class="form-control" type="text" th:field="*{abilities[0].ability.name}" id="nameAbility" placeholder="nameAbility"
+                >
+              </div>
+            </div>
+          <h2>Pokemon Types</h2>
+          <div class="card" style="width: 30rem;">
+            <div class="card-body">
+              <label for="nameType">Name:</label>
+              <input class="form-control" type="text" th:field="*{types[0].type.name}" id="nameType" placeholder="nameType"
+              >
+            </div>
+          </div>
+        <h2>Pokemon Stats</h2>
+        <div class="card" style="width: 30rem;">
+          <div class="card-body">
+            <label for="nameStat">Stat:</label>
+            <input class="form-control" type="text" th:field="*{stats[0].stat.name}" id="nameStat" placeholder="nameStat"
+            >
+          </div>
+        </div>
+        <h2>Pokemon Items</h2>
+        <div class="card" style="width: 30rem;">
+          <div class="card-body">
+            <label for="nameAbility">Item:</label>
+            <input class="form-control" type="text" th:field="*{heldItems[0].item.name}" id="nameItem" placeholder="nameItem"
+            >
+          </div>
+        </div>
+        <h2>Pokemon Sprites</h2>
+        <div class="card" style="width: 30rem;">
+          <div class="card-body">
+            <label for="nameSprite">Sprite:</label>
+            <input class="form-control" type="text" th:field="*{sprites.backShinyFemale}" id="nameSprite" placeholder="nameSprite"
+            >
+          </div>
+        </div>
+        </div>
+        <button type="submit" class="btn btn-outline-success" id="submit">
+          <i class="bi bi-plus-square-fill"></i> Add Pokemon
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+<script th:src="@{/webjars/bootstrap/5.3.2/js/bootstrap.min.js}"></script>
+</body>
+</html>

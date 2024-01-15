@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}" />
+</head>
+<body>
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-2">
+      <p><a class="btn btn-outline-success" href="/myPokemons/bestiary">
+        <i class="bi bi-arrow-left-square-fill"></i> Back</a>
+      </p>
+    </div>
+    <div class="col-6">
+      <h2>Edit Your Animal</h2>
+      <form class="row g-3" action="#" th:action="@{'/myPokemons/editPokemon/'+${pokemon.id}}" method="post">
+        <div class="form-group" th:object="${pokemon}">
+          <div class="col-6">
+            <label for="name">Name</label>
+            <input class="form-control" type="text" th:field="*{name}" id="name" th:value="${pokemon.name}">
+            <label for="type">Type</label>
+            <input class="form-control" type="text" th:field="*{baseExperience}" id="type" th:value="${pokemon.height}">
+            <label for="height">Height</label>
+            <input class="form-control" type="text" th:field="*{height}" id="height" th:value="${pokemon.height}">
+            <label for="order">Order</label>
+            <input class="form-control" type="text" th:field="*{orderNumber}" id="order" th:value="${pokemon.orderNumber}">
+            <label for="weight">Weight</label>
+            <input class="form-control" type="text" th:field="*{weight}" id="weight" th:value="${pokemon.weight}">
+            <label for="locationAreaEncounters">LocationAreaEncounters</label>
+            <input class="form-control" type="text" th:field="*{locationAreaEncounters}" id="locationAreaEncounters" th:value="${pokemon.locationAreaEncounters}">
+          </div>
+          <button type="submit" class="btn btn-outline-success">
+            <i class="bi bi-plus-square-fill"></i> Update
+          </button>
+          <div class="container mt-5">
+            <h2>Pokemon Abilities</h2>
+            <div class="card" style="width: 30rem;" th:each="a : ${abilities}">
+              <div class="card-body" >
+                <input type="hidden" th:value="abilities.id">
+                <p class="card-text"><span class="highlight">Name:</span> <span th:text="${a.getAbility().name}"></span></p>
+                <p class="card-text"><span class="highlight">Url:</span> <span th:text="${a.getAbility().url}"></span> </p>
+                <p class="card-text"><span class="highlight">IsHidden:</span> <span th:text="${a.hidden}"></span></p>
+                <p class="card-text"><span class="highlight">Slot:</span> <span th:text="${a.slot}"></span></p>
+                <a class="btn btn-danger" th:href="@{'/myPokemons/deletePokemonAbility/'+${pokemon.id}+'AND'+${a.id}}">
+                  <i class="bi btn-secondary"></i> Delete</a>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <h2>Pokemon Stats</h2>
+            <div class="card" style="width: 30rem;" th:each="s : ${stats}">
+              <div class="card-body" >
+                <p class="card-text"><span class="highlight">Name:</span> <span th:text="${s.getStat().name}"></span></p>
+                <p class="card-text"><span class="highlight">Url:</span> <span th:text="${s.getStat().url}"></span> </p>
+                <p class="card-text"><span class="highlight">BaseStat:</span> <span th:text="${s.baseStat}"></span></p>
+                <p class="card-text"><span class="highlight">Effort:</span> <span th:text="${s.effort}"></span></p>
+                <a class="btn btn-danger" th:href="@{'/myPokemons/deletePokemonStat/'+${pokemon.id}+'AND'+${s.id}}">
+                  <i class="bi btn-secondary"></i> Delete</a>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <h2>Pokemon Types</h2>
+            <div class="card" style="width: 30rem;" th:each="t : ${types}">
+              <div class="card-body" >
+                <p class="card-text"><span class="highlight">Name:</span> <span th:text="${t.getType().name}"></span></p>
+                <p class="card-text"><span class="highlight">Url:</span> <span th:text="${t.getType().url}"></span> </p>
+                <p class="card-text"><span class="highlight">Slot:</span> <span th:text="${t.slot}"></span></p>
+                <a class="btn btn-danger" th:href="@{'/myPokemons/deletePokemonType/'+${pokemon.id}+'AND'+${t.id}}">
+                  <i class="bi btn-secondary"></i> Delete</a>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <h2>Pokemon Items</h2>
+            <div class="card" style="width: 30rem;" th:each="i : ${heldItems}">
+              <div class="card-body" >
+                <p class="card-text"><span class="highlight">Name:</span> <span th:text="${i.getItem().name}"></span></p>
+                <p class="card-text"><span class="highlight">Url:</span> <span th:text="${i.getItem().url}"></span> </p>
+                <a class="btn btn-danger" th:href="@{'/myPokemons/deletePokemonItem/'+${pokemon.id}+'AND'+${i.id}}">
+                  <i class="bi btn-secondary"></i> Delete</a>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-5">
+            <h2>Pokemon Sprites</h2>
+            <div class="card" style="width: 30rem;" th:each="sprites : ${sprites}">
+              <div class="card-body" >
+                <p class="card-text"><span class="highlight">FrontDefault:</span> <span th:text="${sprites.frontDefault}"></span></p>
+                <p class="card-text"><span class="highlight">FrontShiny:</span> <span th:text="${sprites.frontShiny}"></span> </p>
+                <p class="card-text"><span class="highlight">FrontFemale:</span> <span th:text="${sprites.frontFemale}"></span></p>
+                <p class="card-text"><span class="highlight">FrontShinyFemale:</span> <span th:text="${sprites.frontShinyFemale}"></span></p>
+                <p class="card-text"><span class="highlight">BackDefault:</span> <span th:text="${sprites.backDefault}"></span> </p>
+                <p class="card-text"><span class="highlight">BackShiny:</span> <span th:text="${sprites.backShiny}"></span></p>
+                <p class="card-text"><span class="highlight">BackFemale:</span> <span th:text="${sprites.backFemale}"></span></p>
+                <p class="card-text"><span class="highlight">BackShinyFemale:</span> <span th:text="${sprites.backShinyFemale}"></span> </p>
+                <a class="btn btn-danger" th:href="@{'/myPokemons/deletePokemonSprite/'+${pokemon.id}+'AND'+${sprites.id}}">
+                  <i class="bi btn-secondary"></i> Delete</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+<script th:src="@{/webjars/bootstrap/5.3.2/js/bootstrap.min.js}"></script>
+</body>
+</html>

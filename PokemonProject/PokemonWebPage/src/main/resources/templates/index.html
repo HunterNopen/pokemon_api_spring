@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}" />
+</head>
+<body>
+<div class="container">
+    <h1>POKEMONS:</h1>
+    <hr />
+
+    <table class="table table-bordered table-striped">
+        <thead>
+        <th>Id</th>
+        <th id="pokemonName">Name</th>
+        </thead>
+        <tbody>
+        <tr th:each="any : ${pokemon}">
+            <td th:text="${any.id}"></td>
+            <td th:text="${any.name}"></td>
+            <td>
+                <div class="btn btn-group-sm" role="group">
+                    <a class="btn btn-info" th:href="@{'/myPokemons/editPokemon/'+${any.id}}" id="edit-btn">
+                        <i class="bi bi-pencil-fill"></i> Edit</a>
+                    <a class="btn btn-danger" th:href="@{'/myPokemons/deletePokemon/'+${any.id}}" id="delete-btn">
+                        <i class="bi bi-trash-fill"></i> Delete</a>
+                    <a class="btn btn-secondary" th:href="@{'/myPokemons/bestiary/'+${any.id}}">
+                        <i class="bi bi-trash-fill"></i> View</a>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <p><a class="btn btn-outline-success" href="/myPokemons/trainPokemon" id="add-btn">
+        <i class="bi bi-plus-square-fill"></i>Train Pokemon</a>
+    </p>
+</div>
+<script th:src="@{/webjars/bootstrap/5.3.2/js/bootstrap.min.js}"></script>
+</body>
+</html>

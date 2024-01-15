@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/5.3.2/css/bootstrap.min.css}" />
+  <style>
+    .highlight {
+      color: #e44d26;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1>YOUR POKEMON:</h1>
+  <hr />
+  <h1 th:text="${pokemon.name}"></h1>
+  <div class="container mt-5">
+    <h2>Pokemon Base Information</h2>
+    <div class="card" style="width: 30rem;">
+      <div class="card-body">
+        <p class="card-text"><span class="highlight">Id:</span> <span th:text="${pokemon.id}"></span></p>
+        <p class="card-text"><span class="highlight">BaseExperience:</span> <span th:text="${pokemon.baseExperience}"></span></p>
+        <p class="card-text"><span class="highlight">Height:</span> <span th:text="${pokemon.height}"></span></p>
+        <p class="card-text"><span class="highlight">IsDefault:</span> <span th:text="${pokemon.isDefault}"></span></p>
+        <p class="card-text"><span class="highlight">Order:</span> <span th:text="${pokemon.order}"></span></p>
+        <p class="card-text"><span class="highlight">Weight:</span> <span th:text="${pokemon.weight}"></span></p>
+        <p class="card-text"><span class="highlight">Location:</span> <span th:text="${pokemon.locationAreaEncounters}"></span></p>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <h2>Pokemon Abilities</h2>
+    <div class="card" style="width: 30rem;" th:each="a : ${abilities}">
+      <div class="card-body" >
+        <p class="card-text"><span class="highlight">Name:</span> <span th:text="${a.getAbility().name}"></span></p>
+        <p class="card-text"><span class="highlight">Url:</span> <span th:text="${a.getAbility().url}"></span> </p>
+        <p class="card-text"><span class="highlight">IsHidden:</span> <span th:text="${a.isHidden}"></span></p>
+        <p class="card-text"><span class="highlight">Slot:</span> <span th:text="${a.slot}"></span></p>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <h2>Pokemon Stats</h2>
+    <div class="card" style="width: 30rem;" th:each="s : ${stats}">
+      <div class="card-body" >
+        <p class="card-text"><span class="highlight">Name:</span> <span th:text="${s.getStat().name}"></span></p>
+        <p class="card-text"><span class="highlight">Url:</span> <span th:text="${s.getStat().url}"></span> </p>
+        <p class="card-text"><span class="highlight">BaseStat:</span> <span th:text="${s.baseStat}"></span></p>
+        <p class="card-text"><span class="highlight">Effort:</span> <span th:text="${s.effort}"></span></p>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <h2>Pokemon Types</h2>
+    <div class="card" style="width: 30rem;" th:each="t : ${types}">
+      <div class="card-body" >
+        <p class="card-text"><span class="highlight">Name:</span> <span th:text="${t.getType().name}"></span></p>
+        <p class="card-text"><span class="highlight">Url:</span> <span th:text="${t.getType().url}"></span> </p>
+        <p class="card-text"><span class="highlight">Slot:</span> <span th:text="${t.slot}"></span></p>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <h2>Pokemon Items</h2>
+    <div class="card" style="width: 30rem;" th:each="i : ${heldItems}">
+      <div class="card-body" >
+        <p class="card-text"><span class="highlight">Name:</span> <span th:text="${i.getItem().name}"></span></p>
+        <p class="card-text"><span class="highlight">Url:</span> <span th:text="${i.getItem().url}"></span> </p>
+        </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <h2>Pokemon Sprites</h2>
+    <div class="card" style="width: 30rem;" th:each="sprites : ${sprites}">
+      <div class="card-body" >
+        <p class="card-text"><span class="highlight">FrontDefault:</span> <span th:text="${sprites.frontDefault}"></span></p>
+        <p class="card-text"><span class="highlight">FrontShiny:</span> <span th:text="${sprites.frontShiny}"></span> </p>
+        <p class="card-text"><span class="highlight">FrontFemale:</span> <span th:text="${sprites.frontFemale}"></span></p>
+        <p class="card-text"><span class="highlight">FrontShinyFemale:</span> <span th:text="${sprites.frontShinyFemale}"></span></p>
+        <p class="card-text"><span class="highlight">BackDefault:</span> <span th:text="${sprites.backDefault}"></span> </p>
+        <p class="card-text"><span class="highlight">BackShiny:</span> <span th:text="${sprites.backShiny}"></span></p>
+        <p class="card-text"><span class="highlight">BackFemale:</span> <span th:text="${sprites.backFemale}"></span></p>
+        <p class="card-text"><span class="highlight">BackShinyFemale:</span> <span th:text="${sprites.backShinyFemale}"></span> </p>
+       </div>
+    </div>
+  </div>
+
+
+</div>
+<script th:src="@{/webjars/bootstrap/5.3.2/js/bootstrap.min.js}"></script>
+</body>
+</html>
