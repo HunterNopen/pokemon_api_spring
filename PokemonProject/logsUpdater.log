@@ -1,0 +1,1410 @@
+{ "timestamp": "2024-01-21 15:03:28.991",
+ "thread": "main",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonsUpdater",
+ "message": "Starting PokemonsUpdater using Java 20.0.1 with PID 19736 (D:\git\PokemonProject\PokemonUpdater\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 15:03:28.993",
+ "thread": "main",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonsUpdater",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 15:03:32.293",
+ "thread": "main",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonsUpdater",
+ "message": "Started PokemonsUpdater in 3.694 seconds (process running for 4.192)"
+ }
+{ "timestamp": "2024-01-21 15:04:09.747",
+ "thread": "main",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonsUpdater",
+ "message": "Starting PokemonsUpdater using Java 20.0.1 with PID 18348 (D:\git\PokemonProject\PokemonUpdater\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 15:04:09.750",
+ "thread": "main",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonsUpdater",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 15:04:12.862",
+ "thread": "main",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonsUpdater",
+ "message": "Started PokemonsUpdater in 3.496 seconds (process running for 3.961)"
+ }
+{ "timestamp": "2024-01-21 17:11:44.370",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 3908 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 17:11:44.373",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 17:37:18.048",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 7504 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 17:37:18.052",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 17:38:16.327",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 13852 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 17:38:16.330",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 17:38:20.060",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 4.137 seconds (process running for 4.751)"
+ }
+{ "timestamp": "2024-01-21 17:38:31.751",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@7f32c0ce"
+ }
+{ "timestamp": "2024-01-21 17:38:39.421",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@5705f62c"
+ }
+{ "timestamp": "2024-01-21 17:38:46.393",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@646cedb8"
+ }
+{ "timestamp": "2024-01-21 17:38:47.564",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@522eb5dd"
+ }
+{ "timestamp": "2024-01-21 17:38:48.580",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@6f2c389d"
+ }
+{ "timestamp": "2024-01-21 17:38:48.580",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@79250434, org.pokemon.data.dto.PokemonSummarizingDto@68fb3046, org.pokemon.data.dto.PokemonSummarizingDto@3aff66f2, org.pokemon.data.dto.PokemonSummarizingDto@6dd75947, org.pokemon.data.dto.PokemonSummarizingDto@3c82e46d]"
+ }
+{ "timestamp": "2024-01-21 17:48:46.311",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 8592 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 17:48:46.313",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 17:48:49.721",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.837 seconds (process running for 4.365)"
+ }
+{ "timestamp": "2024-01-21 17:48:50.017",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@8c45eb"
+ }
+{ "timestamp": "2024-01-21 17:48:50.083",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@2af9fa89"
+ }
+{ "timestamp": "2024-01-21 17:48:50.137",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@c7ef857"
+ }
+{ "timestamp": "2024-01-21 17:48:50.190",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@5c5e7882"
+ }
+{ "timestamp": "2024-01-21 17:48:50.223",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@54bb56b2"
+ }
+{ "timestamp": "2024-01-21 17:48:50.223",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@7dc3c445, org.pokemon.data.dto.PokemonSummarizingDto@51d9e7c9, org.pokemon.data.dto.PokemonSummarizingDto@78561705, org.pokemon.data.dto.PokemonSummarizingDto@76d6d07b, org.pokemon.data.dto.PokemonSummarizingDto@15d4c308]"
+ }
+{ "timestamp": "2024-01-21 17:49:13.060",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 11744 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 17:49:13.062",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 17:49:16.326",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.617 seconds (process running for 4.118)"
+ }
+{ "timestamp": "2024-01-21 17:49:16.753",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@20757ca4"
+ }
+{ "timestamp": "2024-01-21 17:49:16.902",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@70ba235e"
+ }
+{ "timestamp": "2024-01-21 17:49:17.001",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@78d07e30"
+ }
+{ "timestamp": "2024-01-21 17:49:17.132",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@4b700c01"
+ }
+{ "timestamp": "2024-01-21 17:49:17.245",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@43098741"
+ }
+{ "timestamp": "2024-01-21 17:49:17.246",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@6802dd1e, org.pokemon.data.dto.PokemonSummarizingDto@2e50c0e7, org.pokemon.data.dto.PokemonSummarizingDto@52134b95, org.pokemon.data.dto.PokemonSummarizingDto@5d2fed19, org.pokemon.data.dto.PokemonSummarizingDto@233b318f]"
+ }
+{ "timestamp": "2024-01-21 17:52:33.135",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 21768 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 17:52:33.138",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 17:52:36.828",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 4.115 seconds (process running for 4.704)"
+ }
+{ "timestamp": "2024-01-21 17:52:39.035",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@7f32c0ce"
+ }
+{ "timestamp": "2024-01-21 17:52:39.359",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1221dd6f"
+ }
+{ "timestamp": "2024-01-21 17:52:39.733",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@19c9e570"
+ }
+{ "timestamp": "2024-01-21 17:52:41.229",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@646cedb8"
+ }
+{ "timestamp": "2024-01-21 17:52:42.062",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@512c936d"
+ }
+{ "timestamp": "2024-01-21 17:52:42.062",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@7f345187, org.pokemon.data.dto.PokemonSummarizingDto@10b91424, org.pokemon.data.dto.PokemonSummarizingDto@418b80eb, org.pokemon.data.dto.PokemonSummarizingDto@7811a57f, org.pokemon.data.dto.PokemonSummarizingDto@25746b93]"
+ }
+{ "timestamp": "2024-01-21 17:53:37.436",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 16148 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 17:53:37.439",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 17:53:41.282",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 4.308 seconds (process running for 4.938)"
+ }
+{ "timestamp": "2024-01-21 17:53:43.010",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@7f32c0ce"
+ }
+{ "timestamp": "2024-01-21 17:53:43.501",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1221dd6f"
+ }
+{ "timestamp": "2024-01-21 17:53:44.831",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@19c9e570"
+ }
+{ "timestamp": "2024-01-21 17:53:45.682",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@646cedb8"
+ }
+{ "timestamp": "2024-01-21 17:53:46.542",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@512c936d"
+ }
+{ "timestamp": "2024-01-21 17:53:46.543",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@4090a0b, org.pokemon.data.dto.PokemonSummarizingDto@2a6ec609, org.pokemon.data.dto.PokemonSummarizingDto@4a890093, org.pokemon.data.dto.PokemonSummarizingDto@734a7bb2, org.pokemon.data.dto.PokemonSummarizingDto@3f5f6e82]"
+ }
+{ "timestamp": "2024-01-21 17:57:11.118",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 15772 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 17:57:11.121",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 17:57:14.395",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.63 seconds (process running for 4.156)"
+ }
+{ "timestamp": "2024-01-21 17:57:14.692",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@8c45eb"
+ }
+{ "timestamp": "2024-01-21 17:57:14.756",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@2af9fa89"
+ }
+{ "timestamp": "2024-01-21 17:57:14.805",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@c7ef857"
+ }
+{ "timestamp": "2024-01-21 17:57:14.851",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@5c5e7882"
+ }
+{ "timestamp": "2024-01-21 17:57:14.886",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@54bb56b2"
+ }
+{ "timestamp": "2024-01-21 17:57:14.886",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@7dc3c445, org.pokemon.data.dto.PokemonSummarizingDto@51d9e7c9, org.pokemon.data.dto.PokemonSummarizingDto@78561705, org.pokemon.data.dto.PokemonSummarizingDto@76d6d07b, org.pokemon.data.dto.PokemonSummarizingDto@15d4c308]"
+ }
+{ "timestamp": "2024-01-21 17:59:04.554",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 14904 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 17:59:04.556",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 17:59:07.847",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.644 seconds (process running for 4.153)"
+ }
+{ "timestamp": "2024-01-21 17:59:08.183",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@2507f31f"
+ }
+{ "timestamp": "2024-01-21 17:59:08.270",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@62e2c73a"
+ }
+{ "timestamp": "2024-01-21 17:59:08.342",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@156b3b67"
+ }
+{ "timestamp": "2024-01-21 17:59:08.486",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@556abe8e"
+ }
+{ "timestamp": "2024-01-21 17:59:08.527",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@bad89d4"
+ }
+{ "timestamp": "2024-01-21 17:59:08.527",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@438b499b, org.pokemon.data.dto.PokemonSummarizingDto@39e1c99, org.pokemon.data.dto.PokemonSummarizingDto@30e15361, org.pokemon.data.dto.PokemonSummarizingDto@57e58f80, org.pokemon.data.dto.PokemonSummarizingDto@4e3bd376]"
+ }
+{ "timestamp": "2024-01-21 17:59:27.289",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 16156 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 17:59:27.291",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 17:59:30.560",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.619 seconds (process running for 4.224)"
+ }
+{ "timestamp": "2024-01-21 17:59:30.921",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@30c85560"
+ }
+{ "timestamp": "2024-01-21 17:59:31.018",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@3264d2d9"
+ }
+{ "timestamp": "2024-01-21 17:59:31.077",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@55931658"
+ }
+{ "timestamp": "2024-01-21 17:59:31.126",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1090a2ff"
+ }
+{ "timestamp": "2024-01-21 17:59:31.167",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@bd1b6f7"
+ }
+{ "timestamp": "2024-01-21 17:59:31.167",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@45140920, org.pokemon.data.dto.PokemonSummarizingDto@69d80129, org.pokemon.data.dto.PokemonSummarizingDto@37637abe, org.pokemon.data.dto.PokemonSummarizingDto@318304ab, org.pokemon.data.dto.PokemonSummarizingDto@54bb56b2]"
+ }
+{ "timestamp": "2024-01-21 17:59:53.131",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 7744 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 17:59:53.134",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 17:59:56.467",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.712 seconds (process running for 4.21)"
+ }
+{ "timestamp": "2024-01-21 17:59:56.813",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@4bafaabd"
+ }
+{ "timestamp": "2024-01-21 17:59:56.875",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@782234ae"
+ }
+{ "timestamp": "2024-01-21 17:59:56.925",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@4e8daf66"
+ }
+{ "timestamp": "2024-01-21 17:59:56.988",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1ab8eb93"
+ }
+{ "timestamp": "2024-01-21 17:59:57.031",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@37637abe"
+ }
+{ "timestamp": "2024-01-21 17:59:57.031",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@318304ab, org.pokemon.data.dto.PokemonSummarizingDto@54bb56b2, org.pokemon.data.dto.PokemonSummarizingDto@7dc3c445, org.pokemon.data.dto.PokemonSummarizingDto@51d9e7c9, org.pokemon.data.dto.PokemonSummarizingDto@78561705]"
+ }
+{ "timestamp": "2024-01-21 18:00:20.241",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 11932 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:00:20.243",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:00:23.572",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.695 seconds (process running for 4.259)"
+ }
+{ "timestamp": "2024-01-21 18:00:23.932",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@33ff0ce6"
+ }
+{ "timestamp": "2024-01-21 18:00:23.980",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@5933bca0"
+ }
+{ "timestamp": "2024-01-21 18:00:24.062",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@50ec2042"
+ }
+{ "timestamp": "2024-01-21 18:00:24.161",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@4a5e4fb1"
+ }
+{ "timestamp": "2024-01-21 18:00:24.250",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1926a8db"
+ }
+{ "timestamp": "2024-01-21 18:00:24.250",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@1938ebbf, org.pokemon.data.dto.PokemonSummarizingDto@bd1b6f7, org.pokemon.data.dto.PokemonSummarizingDto@45140920, org.pokemon.data.dto.PokemonSummarizingDto@69d80129, org.pokemon.data.dto.PokemonSummarizingDto@37637abe]"
+ }
+{ "timestamp": "2024-01-21 18:04:21.794",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 7620 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:04:21.796",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:04:25.294",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.856 seconds (process running for 4.412)"
+ }
+{ "timestamp": "2024-01-21 18:04:25.634",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@33ff0ce6"
+ }
+{ "timestamp": "2024-01-21 18:04:25.707",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@5933bca0"
+ }
+{ "timestamp": "2024-01-21 18:04:25.745",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@50ec2042"
+ }
+{ "timestamp": "2024-01-21 18:04:25.788",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@4a5e4fb1"
+ }
+{ "timestamp": "2024-01-21 18:04:25.861",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1926a8db"
+ }
+{ "timestamp": "2024-01-21 18:04:25.862",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@1938ebbf, org.pokemon.data.dto.PokemonSummarizingDto@bd1b6f7, org.pokemon.data.dto.PokemonSummarizingDto@45140920, org.pokemon.data.dto.PokemonSummarizingDto@69d80129, org.pokemon.data.dto.PokemonSummarizingDto@37637abe]"
+ }
+{ "timestamp": "2024-01-21 18:05:12.841",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 11740 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:05:12.843",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:05:16.187",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.722 seconds (process running for 4.305)"
+ }
+{ "timestamp": "2024-01-21 18:05:16.540",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@8c45eb"
+ }
+{ "timestamp": "2024-01-21 18:05:16.590",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@2af9fa89"
+ }
+{ "timestamp": "2024-01-21 18:05:16.650",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@c7ef857"
+ }
+{ "timestamp": "2024-01-21 18:05:16.722",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@5c5e7882"
+ }
+{ "timestamp": "2024-01-21 18:05:16.767",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@54bb56b2"
+ }
+{ "timestamp": "2024-01-21 18:05:16.767",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@7dc3c445, org.pokemon.data.dto.PokemonSummarizingDto@51d9e7c9, org.pokemon.data.dto.PokemonSummarizingDto@78561705, org.pokemon.data.dto.PokemonSummarizingDto@76d6d07b, org.pokemon.data.dto.PokemonSummarizingDto@15d4c308]"
+ }
+{ "timestamp": "2024-01-21 18:06:46.413",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 8284 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:06:46.415",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:06:49.727",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.674 seconds (process running for 4.172)"
+ }
+{ "timestamp": "2024-01-21 18:06:50.066",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@2507f31f"
+ }
+{ "timestamp": "2024-01-21 18:06:50.135",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@62e2c73a"
+ }
+{ "timestamp": "2024-01-21 18:06:50.212",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@156b3b67"
+ }
+{ "timestamp": "2024-01-21 18:06:50.289",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@556abe8e"
+ }
+{ "timestamp": "2024-01-21 18:06:50.348",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@bad89d4"
+ }
+{ "timestamp": "2024-01-21 18:06:50.348",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@438b499b, org.pokemon.data.dto.PokemonSummarizingDto@39e1c99, org.pokemon.data.dto.PokemonSummarizingDto@30e15361, org.pokemon.data.dto.PokemonSummarizingDto@57e58f80, org.pokemon.data.dto.PokemonSummarizingDto@4e3bd376]"
+ }
+{ "timestamp": "2024-01-21 18:07:30.169",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 20948 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:07:30.172",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:07:33.913",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 4.162 seconds (process running for 4.784)"
+ }
+{ "timestamp": "2024-01-21 18:07:38.042",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@163902bc"
+ }
+{ "timestamp": "2024-01-21 18:07:38.096",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@7b2330f2"
+ }
+{ "timestamp": "2024-01-21 18:07:38.133",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@563924c4"
+ }
+{ "timestamp": "2024-01-21 18:07:38.168",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@766aec12"
+ }
+{ "timestamp": "2024-01-21 18:07:38.200",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@58a9d2d"
+ }
+{ "timestamp": "2024-01-21 18:07:38.200",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@b9656ab, org.pokemon.data.dto.PokemonSummarizingDto@7f345187, org.pokemon.data.dto.PokemonSummarizingDto@10b91424, org.pokemon.data.dto.PokemonSummarizingDto@418b80eb, org.pokemon.data.dto.PokemonSummarizingDto@7811a57f]"
+ }
+{ "timestamp": "2024-01-21 18:13:30.765",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 5148 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:13:30.767",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:13:34.581",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 4.263 seconds (process running for 4.94)"
+ }
+{ "timestamp": "2024-01-21 18:13:34.928",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@4c43fb63"
+ }
+{ "timestamp": "2024-01-21 18:13:35.008",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@7ac7baa1"
+ }
+{ "timestamp": "2024-01-21 18:13:35.102",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@29fb571b"
+ }
+{ "timestamp": "2024-01-21 18:13:35.163",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@418b80eb"
+ }
+{ "timestamp": "2024-01-21 18:13:35.230",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@3f265602"
+ }
+{ "timestamp": "2024-01-21 18:13:35.230",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@1db926ae, org.pokemon.data.dto.PokemonSummarizingDto@4215f20d, org.pokemon.data.dto.PokemonSummarizingDto@2d581c7b, org.pokemon.data.dto.PokemonSummarizingDto@20c3c994, org.pokemon.data.dto.PokemonSummarizingDto@741b1774]"
+ }
+{ "timestamp": "2024-01-21 18:14:23.544",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 21960 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:14:23.548",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:14:26.893",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.737 seconds (process running for 4.256)"
+ }
+{ "timestamp": "2024-01-21 18:14:27.251",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@4237c3eb"
+ }
+{ "timestamp": "2024-01-21 18:14:27.377",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@3b8a522d"
+ }
+{ "timestamp": "2024-01-21 18:14:27.482",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@2443e672"
+ }
+{ "timestamp": "2024-01-21 18:14:27.590",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@622e59e"
+ }
+{ "timestamp": "2024-01-21 18:14:27.677",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1938ebbf"
+ }
+{ "timestamp": "2024-01-21 18:14:27.677",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@bd1b6f7, org.pokemon.data.dto.PokemonSummarizingDto@45140920, org.pokemon.data.dto.PokemonSummarizingDto@69d80129, org.pokemon.data.dto.PokemonSummarizingDto@37637abe, org.pokemon.data.dto.PokemonSummarizingDto@318304ab]"
+ }
+{ "timestamp": "2024-01-21 18:19:17.949",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 20008 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:19:17.953",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:19:21.701",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 4.166 seconds (process running for 4.798)"
+ }
+{ "timestamp": "2024-01-21 18:19:22.026",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@57957d6e"
+ }
+{ "timestamp": "2024-01-21 18:19:22.103",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@3b7b7a56"
+ }
+{ "timestamp": "2024-01-21 18:19:22.144",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1036c832"
+ }
+{ "timestamp": "2024-01-21 18:19:22.198",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@7e63dc93"
+ }
+{ "timestamp": "2024-01-21 18:19:22.246",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@25746b93"
+ }
+{ "timestamp": "2024-01-21 18:19:22.246",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@7db4432d, org.pokemon.data.dto.PokemonSummarizingDto@602508a8, org.pokemon.data.dto.PokemonSummarizingDto@156a738e, org.pokemon.data.dto.PokemonSummarizingDto@13c4ba43, org.pokemon.data.dto.PokemonSummarizingDto@4c363e3d]"
+ }
+{ "timestamp": "2024-01-21 18:26:52.550",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 13228 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:26:52.553",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:26:56.006",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.834 seconds (process running for 4.351)"
+ }
+{ "timestamp": "2024-01-21 18:26:56.309",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@c1b97e5"
+ }
+{ "timestamp": "2024-01-21 18:26:56.365",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@4cc67675"
+ }
+{ "timestamp": "2024-01-21 18:26:56.406",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@6846cef4"
+ }
+{ "timestamp": "2024-01-21 18:26:56.454",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@7dc3c445"
+ }
+{ "timestamp": "2024-01-21 18:26:56.509",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@576fbf0b"
+ }
+{ "timestamp": "2024-01-21 18:26:56.510",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@29a55dab, org.pokemon.data.dto.PokemonSummarizingDto@412d00a1, org.pokemon.data.dto.PokemonSummarizingDto@5b8be03a, org.pokemon.data.dto.PokemonSummarizingDto@71369ba7, org.pokemon.data.dto.PokemonSummarizingDto@72fdd82f]"
+ }
+{ "timestamp": "2024-01-21 18:29:57.367",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 5228 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:29:57.370",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:30:01.092",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 4.136 seconds (process running for 4.751)"
+ }
+{ "timestamp": "2024-01-21 18:30:01.456",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1771d6fa"
+ }
+{ "timestamp": "2024-01-21 18:30:01.524",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@563924c4"
+ }
+{ "timestamp": "2024-01-21 18:30:01.576",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@766aec12"
+ }
+{ "timestamp": "2024-01-21 18:30:01.614",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@58a9d2d"
+ }
+{ "timestamp": "2024-01-21 18:30:01.658",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@7da4eb21"
+ }
+{ "timestamp": "2024-01-21 18:30:01.658",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@48ed5a02, org.pokemon.data.dto.PokemonSummarizingDto@4e523420, org.pokemon.data.dto.PokemonSummarizingDto@65015460, org.pokemon.data.dto.PokemonSummarizingDto@3f265602, org.pokemon.data.dto.PokemonSummarizingDto@1db926ae]"
+ }
+{ "timestamp": "2024-01-21 18:30:59.606",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 4216 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:30:59.610",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:31:03.489",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 4.328 seconds (process running for 4.958)"
+ }
+{ "timestamp": "2024-01-21 18:31:03.831",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1771d6fa"
+ }
+{ "timestamp": "2024-01-21 18:31:03.884",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@563924c4"
+ }
+{ "timestamp": "2024-01-21 18:31:03.928",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@766aec12"
+ }
+{ "timestamp": "2024-01-21 18:31:03.999",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@58a9d2d"
+ }
+{ "timestamp": "2024-01-21 18:31:04.033",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@7da4eb21"
+ }
+{ "timestamp": "2024-01-21 18:31:04.033",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@48ed5a02, org.pokemon.data.dto.PokemonSummarizingDto@4e523420, org.pokemon.data.dto.PokemonSummarizingDto@65015460, org.pokemon.data.dto.PokemonSummarizingDto@3f265602, org.pokemon.data.dto.PokemonSummarizingDto@1db926ae]"
+ }
+{ "timestamp": "2024-01-21 18:31:29.770",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 16256 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:31:29.773",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:31:33.125",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.73 seconds (process running for 4.25)"
+ }
+{ "timestamp": "2024-01-21 18:31:33.456",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@6f2faf08"
+ }
+{ "timestamp": "2024-01-21 18:31:33.508",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@75c6a7da"
+ }
+{ "timestamp": "2024-01-21 18:31:33.548",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@ba7f16c"
+ }
+{ "timestamp": "2024-01-21 18:31:33.585",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@69d80129"
+ }
+{ "timestamp": "2024-01-21 18:31:33.619",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@7724270"
+ }
+{ "timestamp": "2024-01-21 18:31:33.619",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@7c905491, org.pokemon.data.dto.PokemonSummarizingDto@6ca09816, org.pokemon.data.dto.PokemonSummarizingDto@429b04ea, org.pokemon.data.dto.PokemonSummarizingDto@576fbf0b, org.pokemon.data.dto.PokemonSummarizingDto@29a55dab]"
+ }
+{ "timestamp": "2024-01-21 18:33:00.653",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 7724 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:33:00.655",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:33:03.984",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.718 seconds (process running for 4.286)"
+ }
+{ "timestamp": "2024-01-21 18:33:04.341",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@4bafaabd"
+ }
+{ "timestamp": "2024-01-21 18:33:04.420",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@782234ae"
+ }
+{ "timestamp": "2024-01-21 18:33:04.520",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@4e8daf66"
+ }
+{ "timestamp": "2024-01-21 18:33:04.635",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1ab8eb93"
+ }
+{ "timestamp": "2024-01-21 18:33:04.717",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@37637abe"
+ }
+{ "timestamp": "2024-01-21 18:33:04.717",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@318304ab, org.pokemon.data.dto.PokemonSummarizingDto@54bb56b2, org.pokemon.data.dto.PokemonSummarizingDto@7dc3c445, org.pokemon.data.dto.PokemonSummarizingDto@51d9e7c9, org.pokemon.data.dto.PokemonSummarizingDto@78561705]"
+ }
+{ "timestamp": "2024-01-21 18:35:18.993",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 11864 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:35:18.995",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:35:22.385",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.761 seconds (process running for 4.291)"
+ }
+{ "timestamp": "2024-01-21 18:35:22.729",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@c1b97e5"
+ }
+{ "timestamp": "2024-01-21 18:35:22.775",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@4cc67675"
+ }
+{ "timestamp": "2024-01-21 18:35:22.820",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@6846cef4"
+ }
+{ "timestamp": "2024-01-21 18:35:22.869",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@7dc3c445"
+ }
+{ "timestamp": "2024-01-21 18:35:22.930",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@576fbf0b"
+ }
+{ "timestamp": "2024-01-21 18:35:22.930",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@29a55dab, org.pokemon.data.dto.PokemonSummarizingDto@412d00a1, org.pokemon.data.dto.PokemonSummarizingDto@5b8be03a, org.pokemon.data.dto.PokemonSummarizingDto@71369ba7, org.pokemon.data.dto.PokemonSummarizingDto@72fdd82f]"
+ }
+{ "timestamp": "2024-01-21 18:36:36.417",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 15144 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:36:36.419",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:36:39.802",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 3.741 seconds (process running for 4.239)"
+ }
+{ "timestamp": "2024-01-21 18:36:40.145",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@14f18af1"
+ }
+{ "timestamp": "2024-01-21 18:36:40.413",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@18ff96ff"
+ }
+{ "timestamp": "2024-01-21 18:36:40.449",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@66726a56"
+ }
+{ "timestamp": "2024-01-21 18:36:40.497",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@6ba07eef"
+ }
+{ "timestamp": "2024-01-21 18:36:40.580",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@78561705"
+ }
+{ "timestamp": "2024-01-21 18:36:40.580",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@76d6d07b, org.pokemon.data.dto.PokemonSummarizingDto@15d4c308, org.pokemon.data.dto.PokemonSummarizingDto@bad89d4, org.pokemon.data.dto.PokemonSummarizingDto@438b499b, org.pokemon.data.dto.PokemonSummarizingDto@39e1c99]"
+ }
+{ "timestamp": "2024-01-21 18:36:53.163",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Starting PokemonWebPage using Java 20.0.1 with PID 7360 (D:\git\PokemonProject\PokemonWebPage\target\classes started by User in D:\git\PokemonProject)"
+ }
+{ "timestamp": "2024-01-21 18:36:53.166",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "No active profile set, falling back to 1 default profile: "default""
+ }
+{ "timestamp": "2024-01-21 18:36:56.880",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "org.pokemon.PokemonWebPage",
+ "message": "Started PokemonWebPage in 4.128 seconds (process running for 4.849)"
+ }
+{ "timestamp": "2024-01-21 18:36:57.229",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@74c6e893"
+ }
+{ "timestamp": "2024-01-21 18:36:57.329",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@1a69f747"
+ }
+{ "timestamp": "2024-01-21 18:36:57.375",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@58ea4f45"
+ }
+{ "timestamp": "2024-01-21 18:36:57.423",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@b9656ab"
+ }
+{ "timestamp": "2024-01-21 18:36:57.465",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: org.pokemon.data.dto.PokemonDto@48ed5a02"
+ }
+{ "timestamp": "2024-01-21 18:36:57.466",
+ "thread": "restartedMain",
+ "level": "INFO",
+ "logger": "o.p.u.PokemonsUpdaterService",
+ "message": "Processed the pokemon API data: [org.pokemon.data.dto.PokemonSummarizingDto@4e523420, org.pokemon.data.dto.PokemonSummarizingDto@65015460, org.pokemon.data.dto.PokemonSummarizingDto@3f265602, org.pokemon.data.dto.PokemonSummarizingDto@1db926ae, org.pokemon.data.dto.PokemonSummarizingDto@4215f20d]"
+ }

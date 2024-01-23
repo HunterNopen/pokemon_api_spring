@@ -14,7 +14,7 @@ public class PokemonAbilityMapper implements IMap<PokemonAbilitiesDto, PokemonAb
     @Override
     public PokemonAbilities map(PokemonAbilitiesDto abilityDto, PokemonAbilities ability) {
         ability.setHidden(abilityDto.getIsHidden());
-        ability.setSlot(ability.getSlot());
+        ability.setSlot(abilityDto.getSlot());
 
         return ability;
     }

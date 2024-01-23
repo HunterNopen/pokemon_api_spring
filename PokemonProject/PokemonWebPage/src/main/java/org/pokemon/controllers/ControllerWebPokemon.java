@@ -20,11 +20,6 @@ public class ControllerWebPokemon {
 
     private final IServiceRequests service;
 
-//    @GetMapping("/bestiary")
-//    public ResponseEntity<List<PokemonSummarizingDto>> getAllPokemons(){
-//        return ResponseEntity.ok(service.getAllPokemons());
-//    }
-
     @GetMapping("/bestiary")
     public String getIndexView(Model model){
         model.addAttribute("pokemon", service.getAllPokemons());

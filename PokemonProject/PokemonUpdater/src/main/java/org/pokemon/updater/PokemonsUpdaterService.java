@@ -1,5 +1,7 @@
 package org.pokemon.updater;
 
+import com.github.dozermapper.core.DozerBeanMapper;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.pokemon.client.settings.IPokemonClient;
 import org.pokemon.data.dto.*;
@@ -15,24 +17,19 @@ import java.util.function.Predicate;
 
 @Service
 @Slf4j
+@RequiredArgsConstructor
 public class PokemonsUpdaterService implements IUpdatePokemons{
 
     private final ICatalogData db;
     private final IPokemonClient client;
     private final IMapper mapper;
 
-    public PokemonsUpdaterService(ICatalogData db, IPokemonClient client, IMapper mapper) {
-        this.db = db;
-        this.client = client;
-        this.mapper = mapper;
-    }
-
     @Override
     public void getPokemon(String name) {
         //db.getPokemons().save(mapper.forPokemon().map(client.getPokemonByName(name)));
         var pokemonDto=client.getPokemonByName(name);
         savePokemon(pokemonDto);
-
+        log.info("Processed the pokemon API data: {}",pokemonDto);
     }
     @Override
     public void savePokemon(PokemonDto pokemonDto){
@@ -158,5 +155,6 @@ public class PokemonsUpdaterService implements IUpdatePokemons{
         var resultsDto=client.getPokemons(limit);
         var pokemonsDto=resultsDto.getResults();
         pokemonsDto.forEach(p->getPokemon(p.getName()));
+        log.info("Processed the pokemon API data: {}",pokemonsDto);
     }
 }

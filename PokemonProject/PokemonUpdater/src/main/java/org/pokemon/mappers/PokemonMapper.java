@@ -16,7 +16,7 @@ public class PokemonMapper implements IMap<PokemonDto, Pokemon> {
         pokemon.setName(pokemonDto.getName());
         pokemon.setBaseExperience(pokemonDto.getBaseExperience());
         pokemon.setHeight(pokemonDto.getHeight());
-        pokemon.setDefault(pokemonDto.getIsDefault());
+        pokemon.setIsDefault(pokemonDto.getIsDefault());
         pokemon.setOrderNumber(pokemonDto.getOrder());
         pokemon.setWeight(pokemonDto.getWeight());
         pokemon.setLocationAreaEncounters(pokemonDto.getLocationAreaEncounters());

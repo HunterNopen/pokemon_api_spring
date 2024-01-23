@@ -1,12 +1,14 @@
 package org.pokemon.services;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.dozer.DozerBeanMapper;
 import org.pokemon.data.dto.*;
 import org.pokemon.data.entity.Pokemon;
-import org.pokemon.data.repositories.AbilityRepo;
 import org.pokemon.data.repositories.ICatalogData;
 import org.pokemon.mappers.IMapper;
 import org.pokemon.updater.IUpdatePokemons;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -15,10 +17,12 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
+@Slf4j
 public class ServiceWebPokemon implements IServiceRequests{
 
     private final ICatalogData db;
     private final IMapper mapper;
+    private final DozerBeanMapper dozerMapper;
     private final IUpdatePokemons updater;
     @Override
     public long savePokemon(PokemonDto dto) {
@@ -27,7 +31,16 @@ public class ServiceWebPokemon implements IServiceRequests{
     }
 
     @Override
+    @Cacheable("pokemonCache")
     public List<PokemonSummarizingDto> getAllPokemons() {
+        var listPokemons=new ArrayList<PokemonSummarizingDto>();
+        db.getPokemons().findAll().forEach(p->  listPokemons.add(new PokemonSummarizingDto(p.getId(), p.getName())));
+        return listPokemons;
+    }
+
+
+    @Cacheable("pokemonCache")
+    public List<PokemonSummarizingDto> getAllPokemonsByAlphabeticalOrder() {
         var listPokemons=new ArrayList<PokemonSummarizingDto>();
         db.getPokemons().findAll().forEach(p->  listPokemons.add(new PokemonSummarizingDto(p.getId(), p.getName())));
         return listPokemons;
@@ -35,18 +48,8 @@ public class ServiceWebPokemon implements IServiceRequests{
 
     @Override
     public PokemonDto getPokemon(long id) {
-        var pokemon=db.getPokemons().findById(id).get();
-        var dto=new PokemonDto();
-        dto.setId(pokemon.getId().intValue());
-        dto.setName(pokemon.getName());
-        dto.setBaseExperience(pokemon.getBaseExperience());
-        dto.setHeight(pokemon.getHeight());
-        dto.setIsDefault(pokemon.getDefault());
-        dto.setOrder(pokemon.getOrderNumber());
-        dto.setWeight(pokemon.getWeight());
-        dto.setLocationAreaEncounters(pokemon.getLocationAreaEncounters());
-
-        return dto;
+        var pokemonCheck=db.getPokemons().findById(id).get();
+        return dozerMapper.map(pokemonCheck, PokemonDto.class);
     }
 
     @Override
